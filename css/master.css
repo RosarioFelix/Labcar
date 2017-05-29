@@ -9,7 +9,7 @@
 .text-white{
   color: #fff;
 }
-.bg-warning{
+.bg-warning, .btn-warning{
   background-color: #f7b617;
 }
 .font-40{
@@ -18,11 +18,23 @@
 .font-25{
   font-size: 25px;
 }
+.font-300{
+  font-weight: 300;
+}
 .font-500{
   font-weight: 500;
 }
+.mt-12{
+  margin-top: 12%;
+}
+.mt-6{
+  margin-top: 6%;
+}
 .mt-5{
   margin-top: 5%;
+}
+.mt-70{
+  margin-top: 70%;
 }
 .mb-5{
   margin-bottom: 5%;
@@ -110,9 +122,6 @@ nav img{
   }
 }
 /*info*/
-.info{
-  margin-top: 6%;
-}
 .thumbnail{
   background-color: transparent;
   width: 300px;
@@ -120,6 +129,24 @@ nav img{
 @media screen and (min-width:768px) {
   .thumbnail{
     width: 75%;
-    height: 460px;
+    height: 550px;
+  }
+}
+/*conduce*/
+.div-conduce{
+  width: 360px;
+  height: 100%;
+  position: absolute;
+  margin-top: -66.8%;
+  padding: 5%;
+  background-color: rgba(23,8,45,0.4)
+}
+@media screen and (min-width: 768px) {
+  .div-conduce{
+    right: 0;
+    margin-top: 0;
+    width: 500px;
+    height: 900px;
+    padding: 5%;
   }
 }
