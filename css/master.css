@@ -1,10 +1,31 @@
-*{
-  font-family: 'Raleway', sans-serif;
-}
 
+/*reutilizables*/
+.font-os{
+  font-family: 'Open Sans', sans-serif;
+}
+.font-raleway{
+  font-family:'Raleway', sans-serif;
+}
+.text-white{
+  color: #fff;
+}
+.bg-warning{
+  background-color: #f7b617;
+}
+.font-40{
+  font-size: 40px;
+}
+.font-500{
+  font-weight: 500;
+}
+.mt-5{
+  margin-top: 5%;
+}
+/*NAVBAR*/
 .navbar-default{
   background-color: #fff;
-  border-color: #000;
+  border-color: #fff;
+  z-index: 1000;
 }
 .navbar-default .navbar-toggle {
   border-color: #fff;
@@ -15,7 +36,7 @@
 .navbar-header{
   padding: 12% 0;
 }
-img{
+nav img{
   padding: 2%;
   margin-left:9%;
 }
@@ -27,18 +48,58 @@ img{
   margin: 6% 5% 8%;
 }
 @media screen and (min-width: 768px) {
+  .navbar{
+    border-radius: 0;
+  }
   .navbar-header{
-    margin-top: 4%;
+    margin-top: 2.5%;
     padding: 0;
   }
-  img{
+  nav img{
     float: left;
     display: inline-block;
   }
   .navbar-right{
-    width: 300px;
+    width: 400px;
     display: inline-block;
-    padding-left: 2%;
   }
-
+}
+/*HERO*/
+.container-fluid{
+  margin-top: -6%;
+}
+.col-xs-12, .col-md-12, .container-fluid{
+  padding: 0;
+}
+.row{
+  margin: 0;
+}
+@media screen and (min-width:768px) {
+  .img-lg{
+    z-index: 0;
+    margin-top: -100%;
+  }
+}
+.block-car{
+  width: 250px;
+  height: 240px;
+  position: absolute;
+  right: 0;
+  margin-top: 55%;
+  padding: 10px;
+}
+.input-block{
+  border-bottom: 1px solid #fff;
+  border-top: 0;
+  outline: none;
+  border-left: 0;
+  border-right: 0;
+  background-color: transparent;
+}
+@media screen and (min-width:768px) {
+  .block-car{
+    margin-top: 10%;
+    width: 500px;
+    height: 400px;
+  }
 }
