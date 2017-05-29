@@ -180,5 +180,15 @@ nav img{
     padding: 1%;
 
   }
+}
+/*footer*/
+
+footer{
+  background-color: #333333;
+}
+@media screen and (min-width:768px) {
+  footer{
+    margin-top: 6%;
+  }
 
 }
