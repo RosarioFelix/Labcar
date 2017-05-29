@@ -128,8 +128,10 @@ nav img{
 }
 @media screen and (min-width:768px) {
   .thumbnail{
-    width: 75%;
+    width: 90%;
     height: 550px;
+    margin-left: -10%;
+    padding-left: 6%;
   }
 }
 /*conduce*/
@@ -149,4 +151,34 @@ nav img{
     height: 900px;
     padding: 5%;
   }
+}
+/*tarifa*/
+.tarifa{
+  height: 350px;
+}
+.input-tarifa{
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.tarifa button{
+  margin-top: 20%;
+}
+#map{
+  width: 100%;
+  height: 70vh;
+}
+@media screen and (min-width:768px) {
+  .tarifa{
+    height: 550px;
+  }
+  .tarifa h2{
+    margin-top: 20%;
+  }
+  .tarifa .thumbnail{
+    margin: 5%;
+    height: 490px;
+    padding: 1%;
+
+  }
+
 }

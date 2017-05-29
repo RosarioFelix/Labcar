@@ -66,8 +66,8 @@
     </div>
   </div>
   </section>
-  <section class="info mt-6">
-    <div class="container-fluid bg-warning">
+  <section class="info bg-warning">
+    <div class="container">
       <div class="row">
         <div class="col-xs-12 hidden-lg">
           <div class="thumbnail mt-5 center-block">
@@ -109,9 +109,39 @@
           </div>
         </div>
       </div>
-
     </div>
-
+  </section>
+  <section class="tarifa bg-warning">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-6 text-white">
+          <h2 class="font-raleway"> Tarifas</h2>
+          <h4 class="font-os font-300">Consulta las tarifas Labcar aquí</h4>
+        <div class="row">
+            <div class="col-xs-2 col-lg-2 mt-6">
+              <label for="partida"><span class="glyphicon glyphicon-record text-white"></span></label>
+            </div>
+            <div class="col-xs-10 col-lg-10 mt-6">
+              <input type="text" class="form-control input-tarifa">
+            </div>
+          </div>
+        <div class="row">
+              <div class="col-xs-2  col-lg-2 mt-6">
+                <label for="destino"><span class="glyphicon glyphicon-send text-white"></span></label>
+              </div>
+              <div class="col-xs-10 col-lg-10 mt-6">
+                <input type="text" class="form-control input-tarifa">
+              </div>
+                <button type="button" class="btn btn-default center-block font-raleway" name="button"><b>¡Trazar Ruta!</b></button>
+          </div>
+        </div>
+        <div class="col-lg-6 hidden-xs">
+          <div class="thumbnail">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -120,6 +150,7 @@
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB736Ig1QbJnfTTwj9LH3WR-YT2lepeC0w&callback=initMap"async defer></script>
   <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
