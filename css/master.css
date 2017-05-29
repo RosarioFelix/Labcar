@@ -15,11 +15,17 @@
 .font-40{
   font-size: 40px;
 }
+.font-25{
+  font-size: 25px;
+}
 .font-500{
   font-weight: 500;
 }
 .mt-5{
   margin-top: 5%;
+}
+.mb-5{
+  margin-bottom: 5%;
 }
 /*NAVBAR*/
 .navbar-default{
@@ -101,5 +107,19 @@ nav img{
     margin-top: 10%;
     width: 500px;
     height: 400px;
+  }
+}
+/*info*/
+.info{
+  margin-top: 6%;
+}
+.thumbnail{
+  background-color: transparent;
+  width: 300px;
+}
+@media screen and (min-width:768px) {
+  .thumbnail{
+    width: 75%;
+    height: 460px;
   }
 }
