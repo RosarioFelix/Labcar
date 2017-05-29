@@ -186,6 +186,9 @@ nav img{
 footer{
   background-color: #333333;
 }
+footer img{
+  padding: 3%;
+}
 @media screen and (min-width:768px) {
   footer{
     margin-top: 6%;
